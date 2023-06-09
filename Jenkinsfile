@@ -30,18 +30,6 @@ pipeline {
         }
       }
     }
-    // stage('上传') {
-    //   steps{
-    //     script {
-    //       // 把产物复制过去
-    //       // build产物
-    //       dir("docker"){
-    //         sh "./upload"
-    //       }
-    //     }
-    //   }
-    // }
 
   }
 }
-`
